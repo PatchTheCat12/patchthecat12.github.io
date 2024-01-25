@@ -1,0 +1,44 @@
+/* Main */
+#header {
+    text-align: center;
+    background-color: lightblue;
+}
+#article {
+    width: 50%;
+    background-color: pink;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.images .img {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+};
+
+/* Navbar */
+#navbar {
+        color: #7F00FF;
+        background-color: pink;
+        border: 2px solid purple;
+}
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {float: left;}
+
+#navbar li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {background-color: lightblue;}
