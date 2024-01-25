@@ -42,3 +42,14 @@
 }
 
 #navbar li a:hover {background-color: lightblue;}
+
+/* Footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: purple;
+  text-align: center;
+}
